@@ -24,11 +24,11 @@
 	--addres-txt-cl: var(--slate);
 	--heder-nav-cl: var(--navy-blue);
 
-	--main-title-cl:var(--white) body {
+}
+	
+	body {
 		font-family: Roboto, Arial, Helvetica, sans-serif;
 	}
-
-
 
 
 	/**
@@ -103,7 +103,7 @@
   |============================
 */
 	.main-section {
-		background-color: #2E2F42;
+		background-color: var(--heder-nav-cl);
 	}
 
 
@@ -114,20 +114,14 @@
    |============================
  */
 
-	.main-section {
-		background-color: var(--heder-nav-cl);
-
-	}
+	.main-section {}
+	
 
 	.main-box {}
 
 	.main-caption {
-		font-style: normal;
-		font-weight: 500;
-		font-size: 20px;
-		line-height: 1.2;
-		letter-spacing: 0.02em;
-		color: var(--main-title-cl)
+		
 	}
 
 	.main-text {}
+	
