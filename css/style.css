@@ -23,106 +23,111 @@
 .color text {
 	--addres-txt-cl: var(--slate);
 	--heder-nav-cl: var(--navy-blue);
-}
 
-body {
-	font-family: Roboto, Arial, Helvetica, sans-serif;
-}
-
+	--main-title-cl:var(--white) body {
+		font-family: Roboto, Arial, Helvetica, sans-serif;
+	}
 
 
 
-/**
+
+	/**
   |============================
   | header-hover
   |============================
 */
 
-.header-link:hover {
-	color: #404bbf;
-}
+	.header-link:hover {
+		color: #404bbf;
+	}
 
-.header-link-addres:hover {
-	color: #404bbf;
-}
+	.header-link-addres:hover {
+		color: #404bbf;
+	}
 
-.header-link-email:hover {
-	color: #404bbf;
-}
+	.header-link-email:hover {
+		color: #404bbf;
+	}
 
 
-/**
+	/**
   |============================
   | Header style
   |============================
 */
 
-.header {}
+	.header {}
 
-.header-nav {}
+	.header-nav {}
 
-.header-logo {}
+	.header-logo {}
 
-.header-item {}
+	.header-item {}
 
-.header-link {
-	font-style: normal;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
-	color: var(--addres-txt-cl);
+	.header-link {
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+		color: var(--addres-txt-cl);
 
-}
+	}
 
-.header-address {}
+	.header-address {}
 
-.header-item-addres {}
+	.header-item-addres {}
 
 
-.header-link-email {
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 1.5x;
-	letter-spacing: 0.02em;
-	color: var(--addres-txt-cl);
-}
+	.header-link-email {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 1.5x;
+		letter-spacing: 0.02em;
+		color: var(--addres-txt-cl);
+	}
 
-.header-link-addres {
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
-	color: var(--addres-txt-cl);
-}
+	.header-link-addres {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+		color: var(--addres-txt-cl);
+	}
 
-/**
+	/**
   |============================
   |  section1 style
   |============================
 */
-.main-section {
-	background-color: #2E2F42;
-}
+	.main-section {
+		background-color: #2E2F42;
+	}
 
 
 
-/**
+	/**
    |============================
    | section2 style
    |============================
  */
-.main-box {}
 
-.main-caption {
-	font-style: normal;
-	font-weight: 500;
-	font-size: 20px;
-	line-height: 1.2;
-	letter-spacing: 0.02em;
-	color: var(--heder-nav-cl)
-}
+	.main-section {
+		background-color: var(--heder-nav-cl);
 
-.main-text {}
+	}
+
+	.main-box {}
+
+	.main-caption {
+		font-style: normal;
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 1.2;
+		letter-spacing: 0.02em;
+		color: var(--main-title-cl)
+	}
+
+	.main-text {}
