@@ -18,110 +18,169 @@
 	--white: #ffffff;
 	--dairy: #fcfcfc;
 
-}
 
-.color text {
+	/* color text */
+
 	--addres-txt-cl: var(--slate);
-	--heder-nav-cl: var(--navy-blue);
-
+	--main-txt-cl: var(--navy-blue);
+	--main-caption-cl: var(--dairy);
+	--main-btn-color: var(--iris);
 }
-	
-	body {
-		font-family: Roboto, Arial, Helvetica, sans-serif;
-	}
 
 
-	/**
+
+
+
+
+body {
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+
+/**
   |============================
   | header-hover
   |============================
 */
 
-	.header-link:hover {
-		color: #404bbf;
-	}
+.header-link:hover {
+	color: #404bbf;
+}
 
-	.header-link-addres:hover {
-		color: #404bbf;
-	}
+.header-link-addres:hover {
+	color: #404bbf;
+}
 
-	.header-link-email:hover {
-		color: #404bbf;
-	}
+.header-link-email:hover {
+	color: #404bbf;
+}
 
+.btn:hover {
+	background-color: #404bbf;
 
-	/**
+}
+
+/**
   |============================
   | Header style
   |============================
 */
 
-	.header {}
+.header {}
 
-	.header-nav {}
+.header-nav {}
 
-	.header-logo {}
+.header-logo {}
 
-	.header-item {}
+.header-item {}
 
-	.header-link {
-		font-style: normal;
-		font-weight: 500;
-		font-size: 16px;
-		line-height: 1.5;
-		letter-spacing: 0.02em;
-		color: var(--addres-txt-cl);
+.header-link {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--addres-txt-cl);
 
-	}
+}
 
-	.header-address {}
+.header-address {}
 
-	.header-item-addres {}
+.header-item-addres {}
 
 
-	.header-link-email {
-		font-style: normal;
-		font-weight: 400;
-		font-size: 16px;
-		line-height: 1.5x;
-		letter-spacing: 0.02em;
-		color: var(--addres-txt-cl);
-	}
+.header-link-email {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5x;
+	letter-spacing: 0.02em;
+	color: var(--addres-txt-cl);
+}
 
-	.header-link-addres {
-		font-style: normal;
-		font-weight: 400;
-		font-size: 16px;
-		line-height: 1.5;
-		letter-spacing: 0.02em;
-		color: var(--addres-txt-cl);
-	}
+.header-link-addres {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--addres-txt-cl);
+}
 
-	/**
+/**
   |============================
   |  section1 style
   |============================
 */
-	.main-section {
-		background-color: var(--heder-nav-cl);
-	}
+.main-section {
+	background-color: #2E2F42;
+}
 
+.main-title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.07;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: var(--main-caption-cl);
 
+}
 
-	/**
+.btn {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	align-items: center;
+	letter-spacing: 0.04em;
+	color: var(--main-caption-cl);
+	background-color: var(--main-btn-color);
+}
+
+/**
    |============================
    | section2 style
    |============================
  */
 
-	.main-section {}
-	
+.main-section {}
 
-	.main-box {}
 
-	.main-caption {
-		
-	}
+.main-box {}
 
-	.main-text {}
-	
+.main-caption {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--main-txt-cl)
+}
+
+.main-text {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--main-txt-cl);
+
+}
+
+/* section3 or section4 style */
+
+.container {}
+
+.main-sabject {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: var(--main-txt-cl);
+}
+
+/* footer */
+
