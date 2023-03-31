@@ -21,7 +21,11 @@
 
 }
 
-body {}
+body {
+	font-family: Roboto,Arial, Helvetica, sans-serif;
+
+
+}
 
 
 
@@ -67,6 +71,21 @@ body {}
 
 }
 .main-caption{
-color: #4d5ae5;
+background-color: #4d5ae5;
+
+}
+
+
+
+
+
+
+
+
+.best {
+cursor: pointer;
+font-style: normal;
+font-weight: 400;
+background-color: red;
 
 }
