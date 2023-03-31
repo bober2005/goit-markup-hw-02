@@ -23,7 +23,6 @@
 .color text {
 	--addres-txt-cl: var(--slate);
 	--heder-nav-cl: var(--navy-blue);
-	--main-caption-color: var(--white)
 }
 
 body {
@@ -76,7 +75,7 @@ body {
 
 }
 
-.header-address: {}
+.header-address {}
 
 .header-item-addres {}
 
@@ -108,20 +107,22 @@ body {
 	background-color: #2E2F42;
 }
 
-.main-title {
-	font-style: normal;
-	font-weight: 700;
-	font-size: 56px;
-	line-height: 1.07;
-	text-align: center;
-	letter-spacing: 0.02em;
-	color: var(--main-caption-color)
-}
- /**
+
+
+/**
    |============================
    | section2 style
    |============================
  */
+.main-box {}
 
+.main-caption {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--heder-nav-cl)
+}
 
-.main-caption {}
+.main-text {}
