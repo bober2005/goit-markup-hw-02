@@ -1,4 +1,28 @@
+
+/**
+  |============================
+  | палитра кольорів
+  |============================
+*/
+
+:root {
+	--iris: #4d5ae5;
+	--ocean: #404bbf;
+	--navy-blue: #2e2f42;
+	--green: #31d0aa;
+	--slate: #434455;
+	--light-slate: #8e8f99;
+	--cornflower: #e7e9fc;
+	--cloud: #f4f4fd;
+	--navy-blue-modal: #2e2f42;
+	--grey: #2e2f42;
+	--white: #ffffff;
+	--dairy: #fcfcfc;
+
+}
+
 body {}
+
 
 
 
@@ -8,7 +32,10 @@ body {}
   |============================
 */
 
-.header    {}
+.header    {
+
+
+}
 
 .header-nav {
 
@@ -34,4 +61,12 @@ body {}
 }
 .header-link-addres{
     
+}
+
+.main-section{
+
+}
+.main-caption{
+color: #4d5ae5;
+
 }
