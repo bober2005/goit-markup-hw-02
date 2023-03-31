@@ -20,16 +20,14 @@
 
 }
 
-.colot text {
-	--nav-txt-color: var(--navy-blue)
+.color text {
+	--addres-txt-cl: var(--slate);
+	--heder-nav-cl: var(--navy-blue);
+	--main-caption-color: var(--white)
 }
-
-.color-hover {}
 
 body {
 	font-family: Roboto, Arial, Helvetica, sans-serif;
-
-
 }
 
 
@@ -42,12 +40,17 @@ body {
 */
 
 .header-link:hover {
-	color:#404bbf;
+	color: #404bbf;
+}
+
+.header-link-addres:hover {
+	color: #404bbf;
 }
 
 .header-link-email:hover {
-	color:#404bbf;
+	color: #404bbf;
 }
+
 
 /**
   |============================
@@ -58,31 +61,18 @@ body {
 .header {}
 
 .header-nav {}
- 
-
-	
-
-
 
 .header-logo {}
 
-.header-item {
-	font-style: normal;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
-	color: ;
-}
-	
+.header-item {}
 
-.header-link{
+.header-link {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color:#2e2f42 ;
+	color: var(--addres-txt-cl);
 
 }
 
@@ -91,9 +81,47 @@ body {
 .header-item-addres {}
 
 
+.header-link-email {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5x;
+	letter-spacing: 0.02em;
+	color: var(--addres-txt-cl);
+}
 
-.header-link-addres {}
+.header-link-addres {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--addres-txt-cl);
+}
 
-.main-section {}
+/**
+  |============================
+  |  section1 style
+  |============================
+*/
+.main-section {
+	background-color: #2E2F42;
+}
+
+.main-title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.07;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: var(--main-caption-color)
+}
+ /**
+   |============================
+   | section2 style
+   |============================
+ */
+
 
 .main-caption {}
