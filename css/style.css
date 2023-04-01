@@ -36,19 +36,41 @@
 body {
 	background-color: #ffffff;
 	color: #434455;
-	font-family: "Roboto", Arial, Helvetica, sans-serif;
+	font-family: "Roboto", sans-serif,
 }
 
-.list{
-list-style: none;
+.list {
+	list-style: none;
 
 
 }
+
 /**
   |============================
   | header-hover
   |============================
 */
+/* logo */
+.header-logo {
+	color: var(--main-btn-color);
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+	line-height: 1.17;
+	font-size: 18px;
+	font-weight: 800;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+	font-family: "Raleway", sans-serif;
+	text-decoration: none;
+}
+
+.logo-studio {
+	color: var(--main-txt-cl);
+
+}
+
 
 .header-link:hover {
 	color: #404bbf;
@@ -73,7 +95,7 @@ list-style: none;
 }
 
 /**
-  |============================
+
   | Header style
   |============================
 */
@@ -92,8 +114,8 @@ list-style: none;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: var(--addres-txt-cl);
-
+	color: var(--main-txt-cl);
+	text-decoration: none;
 }
 
 .header-address {}
@@ -108,6 +130,7 @@ list-style: none;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--addres-txt-cl);
+	text-decoration: none;
 }
 
 .header-link-addres {
@@ -117,6 +140,7 @@ list-style: none;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--addres-txt-cl);
+	text-decoration: none;
 }
 
 /**
