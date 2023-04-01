@@ -36,13 +36,11 @@
 body {
 	background-color: #ffffff;
 	color: #434455;
-	font-family: "Roboto", sans-serif,
+	font-family: "Roboto", sans-serif;
 }
 
 .list {
 	list-style: none;
-
-
 }
 
 /**
@@ -92,6 +90,11 @@ body {
 .nav-btn-pt:hover {
 	background-color: #404bbf;
 	color: var(--portfolio-btn-cl);
+}
+
+
+link {
+	text-decoration: none
 }
 
 /**
@@ -224,8 +227,11 @@ body {
   |============================
 */
 
-/* header-portfolia */
+/* header-portfolio */
 
+portfolio-addres{
+	font-style: normal
+}
 
 /* button */
 .nav-btn-pt {
