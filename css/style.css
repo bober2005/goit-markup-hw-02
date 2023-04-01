@@ -25,6 +25,7 @@
 	--main-txt-cl: var(--navy-blue);
 	--main-caption-cl: var(--dairy);
 	--main-btn-color: var(--iris);
+	--portfolio-btn-cl: var(--cloud)
 }
 
 
@@ -58,6 +59,11 @@ body {
 .btn:hover {
 	background-color: #404bbf;
 
+}
+
+.nav-btn-pt:hover {
+	background-color: #404bbf;
+	color: var(--portfolio-btn-cl);
 }
 
 /**
@@ -169,7 +175,7 @@ body {
 }
 
 /* section3 or section4 style */
-
+/* footer */
 .container {}
 
 .main-sabject {
@@ -182,5 +188,27 @@ body {
 	color: var(--main-txt-cl);
 }
 
-/* footer */
+/**
+  |============================
+  |  Portfolia
+  |============================
+*/
 
+/* header-portfolia */
+
+
+/* button */
+.nav-btn-pt {
+
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: var(--main-btn-color);
+	background-color: var(--portfolio-btn-cl);
+
+}
