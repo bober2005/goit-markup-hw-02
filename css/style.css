@@ -194,7 +194,9 @@ link {
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
-	color: var(--main-txt-cl)
+	color: var(--main-txt-cl);
+	text-transform: capitalize;
+	
 }
 
 .main-text {
@@ -204,6 +206,7 @@ link {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--main-txt-cl);
+	background-color: #FFFFFF;
 
 }
 
@@ -220,6 +223,14 @@ link {
 	letter-spacing: 0.02em;
 	color: var(--main-txt-cl);
 }
+.section-the-end{
+	background-color: #F4F4FD;
+
+}
+.box {
+	background-color: #FFFFFF
+}
+
 
 /**
   |============================
@@ -230,7 +241,7 @@ link {
 /* header-portfolio */
 
 portfolio-addres{
-	font-style: normal
+	font-style: normal;
 }
 
 /* button */
