@@ -223,6 +223,7 @@ link {
 	letter-spacing: 0.02em;
 	color: var(--main-txt-cl);
 	text-transform: capitalize;
+	background-color: #F4F4FD;
 }
 
 .section-the-end {
@@ -240,15 +241,17 @@ link {
 .box {
 	background-color: #FFFFFF;
 }
-.The-end{
+
+.the-end {
 
 	background-color: #2e2f42;
 }
 
-.logo-studio-end{
-color:  #f4f4fd;
+.logo-studio-end {
+	color: #f4f4fd;
 
 }
+
 /**
   |============================
   |  Portfolia
