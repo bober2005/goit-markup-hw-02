@@ -34,10 +34,15 @@
 
 
 body {
+	background-color: #ffffff;
 	font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
+.list{
+list-style: none;
 
+
+}
 /**
   |============================
   | header-hover
