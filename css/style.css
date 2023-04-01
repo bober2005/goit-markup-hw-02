@@ -196,7 +196,7 @@ link {
 	letter-spacing: 0.02em;
 	color: var(--main-txt-cl);
 	text-transform: capitalize;
-	
+
 }
 
 .main-text {
@@ -205,7 +205,7 @@ link {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: var(--main-txt-cl);
+	color: #434455;
 	background-color: #FFFFFF;
 
 }
@@ -222,16 +222,33 @@ link {
 	text-align: center;
 	letter-spacing: 0.02em;
 	color: var(--main-txt-cl);
+	text-transform: capitalize;
 }
-.section-the-end{
+
+.section-the-end {
 	background-color: #F4F4FD;
 
 }
-.box {
-	background-color: #FFFFFF
+
+.list {
+	background-color: #FFFFFF;
+
+
 }
 
 
+.box {
+	background-color: #FFFFFF;
+}
+.The-end{
+
+	background-color: #2e2f42;
+}
+
+.logo-studio-end{
+color:  #f4f4fd;
+
+}
 /**
   |============================
   |  Portfolia
@@ -240,7 +257,7 @@ link {
 
 /* header-portfolio */
 
-portfolio-addres{
+portfolio-addres {
 	font-style: normal;
 }
 
