@@ -259,23 +259,27 @@ link {
 */
 
 /* header-portfolio */
+link {
+	text-decoration: none;
 
-portfolio-addres {
-	font-style: normal;
 }
+
+.logo-portfolio {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #4d5ae5;
+	text-decoration: none;
+}
+.logo-span{
+color: #2e2f42;
+
+}
+
+
 
 /* button */
-.nav-btn-pt {
-
-	font-style: normal;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 24px;
-	display: flex;
-	align-items: center;
-	text-align: center;
-	letter-spacing: 0.04em;
-	color: var(--main-btn-color);
-	background-color: var(--portfolio-btn-cl);
-
-}
+.nav-btn-pt {}
