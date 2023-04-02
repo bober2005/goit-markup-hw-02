@@ -407,11 +407,11 @@ body {
 /* logo portfolio footer */
 
 .logo-beginning {
-	font-family: 'Raleway' sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-style: normal;
 	font-weight: 800;
 	font-size: 18px;
-	line-height: 21px;
+	line-height: 1.17;
 	display: flex;
 	align-items: center;
 	letter-spacing: 0.03em;
@@ -425,7 +425,7 @@ body {
 	font-style: normal;
 	font-weight: 800;
 	font-size: 18px;
-	line-height: 21px;
+	line-height: 1.17;
 	display: flex;
 	align-items: center;
 	letter-spacing: 0.03em;
