@@ -126,6 +126,13 @@ body {
   |============================
 */
 /* html  */
+
+
+.header-item:focus {
+	color: #404bbf;
+
+}
+
 .header-link :focus {
 	color: #404bbf;
 
