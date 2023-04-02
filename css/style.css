@@ -81,7 +81,7 @@ body {
    | hover
    |============================
  */
-.header-link:hover {
+.header-items:hover {
 	color: #404bbf;
 }
 
@@ -128,15 +128,12 @@ body {
 /* html  */
 
 
-.header-item:focus {
+.header-items:focus {
 	color: #404bbf;
 
 }
 
-.header-link :focus {
-	color: #404bbf;
 
-}
 
 .header-link-addres:focus {
 	color: #404bbf;
@@ -177,7 +174,7 @@ body {
 
 .header-item {}
 
-.header-link {
+.header-items {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
