@@ -28,9 +28,9 @@
 	--portfolio-btn-cl: var(--cloud)
 }
 
-.list{
+.list {
 	list-style: none;
-	
+
 }
 
 .link {
@@ -269,24 +269,32 @@ body {
 	color: #4d5ae5;
 	text-decoration: none;
 }
-.logo-span{
-color: #2e2f42;
 
+.logo-span {
+	color: #2e2f42;
+
+}
+
+.portfolio-navigation {
+	font-weight: 500;
+	line-height: 1.5;
+	letter-spacing: 0.02;
+	color: #2e2f42;
 }
 
 
 
 
-.portfolio-addres{
-font-style: normal;
-	 
+.portfolio-addres {
+	font-style: normal;
+
 }
 
-.address-navigation{
+.address-navigation {
 	font-size: 16px;
 	line-height: 1.5;
-	letter-spacing: 0.02em; 
-	color:  #434455;
+	letter-spacing: 0.02em;
+	color: #434455;
 
 }
 
