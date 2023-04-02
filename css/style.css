@@ -97,10 +97,7 @@ body {
 
 }
 
-.nav-btn-pt:hover {
-	background-color: #404bbf;
-	color: var(--portfolio-btn-cl);
-}
+
 
 /* portfolio */
 
@@ -112,6 +109,12 @@ body {
 .address-navigation:hover {
 	color: #404bbf;
 
+}
+
+/* button */
+.all-button:hover {
+	color: #FFFFFF;
+	background-color: #404BBF;
 }
 
 
@@ -131,6 +134,12 @@ body {
 
 .address-navigation:focus {
 	color: #404bbf;
+
+}
+
+.all-button:focus {
+	color: #FFFFFF;
+	background-color: #404BBF;
 
 }
 
@@ -270,7 +279,7 @@ body {
 
 .section-the-end {
 	background-color: #F4F4FD;
-
+	letter-spacing: 0.02em;
 }
 
 
@@ -340,4 +349,12 @@ body {
 
 
 /* button */
-.nav-btn-pt {}
+all-button {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	color: #4d5ae5;
+	background-color: #F4F4FD;
+}
