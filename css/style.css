@@ -110,7 +110,7 @@ body {
 }
 
 /* button */
-.all-button:hover {
+.navigation-button:hover {
 	color: #FFFFFF;
 	background-color: #404BBF;
 }
@@ -159,7 +159,7 @@ body {
 
 }
 
-.all-button:focus {
+.navigation-button:focus {
 	color: #FFFFFF;
 	background-color: #404BBF;
 
@@ -367,8 +367,13 @@ body {
 
 
 /* button */
-all-button {
-	font-family: "Roboto", sans-serif;
+
+
+
+
+
+
+.navigation-button {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
@@ -377,5 +382,8 @@ all-button {
 	align-items: center;
 	text-align: center;
 	letter-spacing: 0.04em;
-	color: #FFFFFF;
+	color: #4D5AE5;
+	background: #F4F4FD;
+
+
 }
