@@ -291,7 +291,7 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--main-txt-cl);
 	text-transform: capitalize;
-	background-color:#FFFFFF;
+	background-color: #FFFFFF;
 }
 
 .section-the-end {
@@ -299,8 +299,9 @@ body {
 	letter-spacing: 0.02em;
 }
 
-
-
+.section-end {
+	background-color: #FFFFFF;
+}
 
 .box {
 	background-color: #FFFFFF;
