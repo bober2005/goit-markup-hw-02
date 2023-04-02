@@ -85,11 +85,11 @@ body {
 	color: #404bbf;
 }
 
-.header-link-addres:hover {
+.header-address:hover {
 	color: #404bbf;
 }
 
-.header-link-email:hover {
+.header-email:hover {
 	color: #404bbf;
 }
 
@@ -135,9 +135,13 @@ body {
 
 
 
-.header-link-addres:focus {
+.header-address:focus {
 	color: #404bbf;
 
+}
+
+.header-email:focus {
+	color: #404bbf;
 }
 
 /* portfolio */
@@ -191,7 +195,7 @@ body {
 .header-item-addres {}
 
 
-.header-link-email {
+.header-email {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
@@ -201,7 +205,7 @@ body {
 	text-decoration: none;
 }
 
-.header-link-addres {
+.header-address {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
