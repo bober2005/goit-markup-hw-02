@@ -393,3 +393,55 @@ body {
 	letter-spacing: 0.02em;
 	color: #2E2F42;
 }
+
+
+
+
+
+/* footer */
+.portfolio {
+	background: #2E2F42;
+}
+
+
+/* logo portfolio footer */
+
+.logo-beginning {
+	font-family: 'Raleway' sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 21px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #4D5AE5;
+
+}
+
+.logo-end {
+	font-family: 'Raleway' sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 21px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #F4F4FD;
+
+}
+
+.end-text {
+
+	font-family: 'Roboto' sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	color: #F4F4FD;
+
+}
