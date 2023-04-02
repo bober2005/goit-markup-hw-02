@@ -131,6 +131,11 @@ body {
 
 }
 
+.header-link-addres:focus {
+	color: #404bbf;
+
+}
+
 /* portfolio */
 .portfolio-navigation:focus {
 	color: #404bbf;
@@ -175,7 +180,9 @@ body {
 	text-decoration: none;
 }
 
-.header-address {}
+.contacts {
+	font-style: normal;
+}
 
 .header-item-addres {}
 
