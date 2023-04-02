@@ -85,9 +85,6 @@ body {
 	color: #404bbf;
 }
 
-.header-address:hover {
-	color: #404bbf;
-}
 
 .header-email:hover {
 	color: #404bbf;
@@ -192,7 +189,7 @@ body {
 	font-style: normal;
 }
 
-.header-item-addres {}
+
 
 
 .header-email {
@@ -205,15 +202,7 @@ body {
 	text-decoration: none;
 }
 
-.header-address {
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
-	color: var(--addres-txt-cl);
-	text-decoration: none;
-}
+
 
 /**
   |============================
