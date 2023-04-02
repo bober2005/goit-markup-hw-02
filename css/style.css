@@ -141,6 +141,13 @@ body {
 	color: #404bbf;
 }
 
+/* section1 */
+
+.btn:focus {
+	background-color: #404bbf;
+
+}
+
 /* portfolio */
 .portfolio-navigation:focus {
 	color: #404bbf;
@@ -220,8 +227,7 @@ body {
 	line-height: 1.07;
 	text-align: center;
 	letter-spacing: 0.02em;
-	color: var(--main-caption-cl);
-
+	color: #ffffff;
 }
 
 .btn {
@@ -233,6 +239,8 @@ body {
 	letter-spacing: 0.04em;
 	color: var(--main-caption-cl);
 	background-color: var(--main-btn-color);
+	font-family: "Roboto", sans-serif;
+	cursor: pointer;
 }
 
 /**
