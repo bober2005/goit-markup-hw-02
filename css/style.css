@@ -75,7 +75,11 @@ body {
 
 }
 
-
+/**
+   |============================
+   | hover
+   |============================
+ */
 .header-link:hover {
 	color: #404bbf;
 }
@@ -97,6 +101,40 @@ body {
 	background-color: #404bbf;
 	color: var(--portfolio-btn-cl);
 }
+
+/* portfolio */
+
+.portfolio-navigation:hover {
+	color: #404bbf;
+
+}
+
+.address-navigation:hover {
+	color: #404bbf;
+
+}
+
+
+
+/**
+  |============================
+  | focus
+  |============================
+*/
+
+
+/* portfolio */
+.portfolio-navigation:focus {
+	color: #404bbf;
+
+}
+
+.address-navigation:focus {
+	color: #404bbf;
+
+}
+
+
 
 
 /**
@@ -214,7 +252,9 @@ body {
 
 /* section3 or section4 style */
 /* footer */
-.container {}
+.container {
+	letter-spacing: 0.02em;
+}
 
 .main-sabject {
 	font-style: normal;
@@ -278,7 +318,7 @@ body {
 .portfolio-navigation {
 	font-weight: 500;
 	line-height: 1.5;
-	letter-spacing: 0.02;
+	letter-spacing: 0.02em;
 	color: #2e2f42;
 }
 
