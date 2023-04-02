@@ -81,7 +81,7 @@ body {
    | hover
    |============================
  */
-.header-link:hover {
+.header-link link:hover {
 	color: #404bbf;
 }
 
@@ -125,7 +125,11 @@ body {
   | focus
   |============================
 */
+/* html  */
+.header-link link:focus {
+	color: #404bbf;
 
+}
 
 /* portfolio */
 .portfolio-navigation:focus {
